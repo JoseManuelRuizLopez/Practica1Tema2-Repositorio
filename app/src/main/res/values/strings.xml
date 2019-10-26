@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Datos Personales</string>
+    <string name="txtNombre"></string>
+    <string name="txtNombrePLH">Nombre</string>
+    <string name="txtApellidos"></string>
+    <string name="txtApellidosPLH">Apellidos</string>
+    <string name="txtEdad"></string>
+    <string name="txtEdadPLH">Edad</string>
+    <string name="rbHombre">Hombre</string>
+    <string name="rbMujer">Mujer</string>
+
+    <string name="estadoCivil">Elige estado civil...</string>
+    <string name="casado">casado</string>
+    <string name="separado">separado</string>
+    <string name="viudo">viudo</string>
+    <string name="otro">otro</string>
+
+    <string-array name="estadoCivil">
+        <item>@string/estadoCivil</item>
+        <item>@string/casado</item>
+        <item>@string/separado</item>
+        <item>@string/viudo</item>
+        <item>@string/otro</item>
+    </string-array>
+
+    <string name="swHijos">¿Tienes hijos?</string>
+    <string name="btnComprobar">Comprobar</string>
+    <string name="btnBorrar">Borrar</string>
+    <string name="txtComprobar"></string>
+
+
+    <string name="mayorEdad">mayor de edad</string>
+    <string name="menorEdad">menor de edad</string>
+    <string name="conHijos">y con hijos</string>
+    <string name="sinHijos">y sin hijos</string>
+    <string name="hombre">hombre</string>
+    <string name="mujer">mujer</string>
+    
+    <string name="fNombre">(Falta nombre)</string>
+    <string name="fApellidos">(Falta apellidos)</string>
+    <string name="fEdad">(Falta edad)</string>
+    <string name="fGenero">(Falta genero)</string>
+    <string name="fEstadoCivil">(Falta el estado civil)</string>
+</resources>

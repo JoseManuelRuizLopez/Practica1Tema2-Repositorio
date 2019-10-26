@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personal Data</string>
+    <string name="txtNombre"></string>
+    <string name="txtNombrePLH">Name</string>
+    <string name="txtApellidos"></string>
+    <string name="txtApellidosPLH">Surnames</string>
+    <string name="txtEdad"></string>
+    <string name="txtEdadPLH">Age</string>
+    <string name="rbHombre">Male</string>
+    <string name="rbMujer">Female</string>
+
+    <string name="estadoCivil">Choose marital status...</string>
+    <string name="casado">married</string>
+    <string name="separado">separated</string>
+    <string name="viudo">widow</string>
+    <string name="otro">other</string>
+
+    <string-array name="estadoCivil">
+        <item>@string/estadoCivil</item>
+        <item>@string/casado</item>
+        <item>@string/separado</item>
+        <item>@string/viudo</item>
+        <item>@string/otro</item>
+    </string-array>
+
+    <string name="swHijos">Have children?</string>
+    <string name="btnComprobar">Check</string>
+    <string name="btnBorrar">Delete</string>
+    <string name="txtComprobar"></string>
+
+
+    <string name="mayorEdad">adult</string>
+    <string name="menorEdad">younger</string>
+    <string name="conHijos">and with children</string>
+    <string name="sinHijos">and without children</string>
+    <string name="hombre">man</string>
+    <string name="mujer">woman</string>
+
+    <string name="fNombre">(Name is missing)</string>
+    <string name="fApellidos">(Surname is missing)</string>
+    <string name="fEdad">(Age is missing)</string>
+    <string name="fGenero">(Gender is missing)</string>
+    <string name="fEstadoCivil">(Marital status is missing)</string>
+</resources>
