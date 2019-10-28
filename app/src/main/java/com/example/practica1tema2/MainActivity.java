@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     EditText txtNombre;
     EditText txtApellidos;
     EditText txtEdad;
+    RadioGroup rbgGrupo;
     RadioButton rbhombre;
     RadioButton rbMujer;
     Spinner spnEstadoCivil;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         txtNombre = (EditText) findViewById(R.id.txtNombre);
         txtApellidos = (EditText) findViewById(R.id.txtApellidos);
         txtEdad = (EditText) findViewById(R.id.txtEdad);
+        rbgGrupo = (RadioGroup)findViewById(R.id.rbgGenero);
         rbhombre = (RadioButton) findViewById(R.id.rbHombre);
         rbMujer = (RadioButton) findViewById(R.id.rbMujer);
         spnEstadoCivil = (Spinner) findViewById(R.id.spEstadoCivil);
@@ -154,8 +156,7 @@ public class MainActivity extends AppCompatActivity {
                 txtApellidos.setText(R.string.txtApellidos);
                 txtEdad.setText(R.string.txtEdad);
                 spnEstadocivil.setSelection(0);
-                rbhombre.setChecked(false);
-                rbMujer.setChecked(false);
+               rbgGrupo.clearCheck();
                 swHijos.setChecked(false);
                 txtComprobar.setText(R.string.txtComprobar);
             }
