@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
                 txtApellidos.setText(R.string.txtApellidos);
                 txtEdad.setText(R.string.txtEdad);
                 spnEstadocivil.setSelection(0);
-               rbgGrupo.clearCheck();
+                rbgGrupo.clearCheck();
                 swHijos.setChecked(false);
                 txtComprobar.setText(R.string.txtComprobar);
             }
