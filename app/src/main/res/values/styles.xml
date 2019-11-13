@@ -8,8 +8,17 @@
         <item name="colorAccent">@color/morado</item>
     </style>
 
-    <style name="txtNombresV">
+    <style name="EstiloTexto">
         <item name="android:fontFamily">@font/nairiambersanserif</item>
+    </style>
+
+    <style name="EstiloBoton">
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:fontFamily">@font/mandatoryplaything</item>
+        <item name="android:background">@color/morado</item>
+    </style>
+
+    <style name="txtNombresV" parent="EstiloTexto">
         <item name="android:digits">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ </item>
         <item name="android:ems">10</item>
         <item name="android:inputType">textCapSentences</item>
@@ -18,8 +27,7 @@
         <item name="android:layout_marginStart">@dimen/margenGeneralV_Layout_marginStart</item>
     </style>
 
-    <style name="txtNombreH">
-        <item name="android:fontFamily">@font/nairiambersanserif</item>
+    <style name="txtNombreH" parent="EstiloTexto">
         <item name="android:digits">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ </item>
         <item name="android:ems">10</item>
         <item name="android:inputType">textCapSentences</item>
@@ -29,8 +37,7 @@
         <item name="android:layout_marginTop">@dimen/txtNombreH_Layout_marginTop</item>
     </style>
 
-    <style name="txtApellidosH">
-        <item name="android:fontFamily">@font/nairiambersanserif</item>
+    <style name="txtApellidosH" parent="EstiloTexto">
         <item name="android:digits">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ </item>
         <item name="android:ems">10</item>
         <item name="android:inputType">textCapSentences</item>
@@ -40,8 +47,7 @@
         <item name="android:layout_marginTop">@dimen/txtApellidosH_Layout_marginTop</item>
     </style>
 
-    <style name="txtEdadV">
-        <item name="android:fontFamily">@font/nairiambersanserif</item>
+    <style name="txtEdadV" parent="EstiloTexto">
         <item name="android:inputType">number</item>
         <item name="android:ems">10</item>
         <item name="android:digits">0123456789</item>
@@ -50,8 +56,7 @@
         <item name="android:layout_marginStart">@dimen/margenGeneralV_Layout_marginStart</item>
     </style>
 
-    <style name="txtEdadH">
-        <item name="android:fontFamily">@font/nairiambersanserif</item>
+    <style name="txtEdadH" parent="EstiloTexto">
         <item name="android:inputType">number</item>
         <item name="android:ems">10</item>
         <item name="android:digits">0123456789</item>
@@ -74,16 +79,14 @@
         <item name="android:layout_marginTop">@dimen/rbgGeneroH_Layout_marginTop</item>
     </style>
 
-    <style name="swHijosV">
-        <item name="android:fontFamily">@font/nairiambersanserif</item>
+    <style name="swHijosV" parent="EstiloTexto">
         <item name="android:textSize">20sp</item>
         <item name="android:layout_marginStart">@dimen/margenGeneralV_Layout_marginStart</item>
         <item name="android:layout_width">@dimen/swHijosV_Layout_width</item>
         <item name="android:layout_height">@dimen/swHijosV_Layout_height</item>
     </style>
 
-    <style name="swHijosH">
-        <item name="android:fontFamily">@font/nairiambersanserif</item>
+    <style name="swHijosH" parent="EstiloTexto">
         <item name="android:textSize">20sp</item>
         <item name="android:layout_marginStart">@dimen/swHijosH_Layout_marginStart</item>
         <item name="android:layout_width">@dimen/swHijosH_Layout_width</item>
@@ -104,51 +107,39 @@
         <item name="android:layout_marginTop">@dimen/swHijosH_Layout_marginTop</item>
     </style>
 
-    <style name="btnComprobarV">
-        <item name="android:textColor">@color/blanco</item>
-        <item name="android:fontFamily">@font/mandatoryplaything</item>
-        <item name="android:background">@color/morado</item>
+    <style name="btnComprobarV" parent="EstiloBoton">
         <item name="android:layout_marginStart">@dimen/margenGeneralV_Layout_marginStart</item>
         <item name="android:layout_width">@dimen/btnComprobarV_Layout_width</item>
         <item name="android:layout_height">@dimen/btnComprobarV_Layout_height</item>
     </style>
 
-    <style name="btnComprobarH">
-        <item name="android:textColor">@color/blanco</item>
-        <item name="android:fontFamily">@font/mandatoryplaything</item>
-        <item name="android:background">@color/morado</item>
+    <style name="btnComprobarH" parent="EstiloBoton">
         <item name="android:layout_marginStart">@dimen/btnComprobarH_Layout_marginStart</item>
         <item name="android:layout_width">@dimen/btnComprobarH_Layout_width</item>
         <item name="android:layout_height">@dimen/btnComprobarH_Layout_height</item>
         <item name="android:layout_marginTop">@dimen/btnComprobarH_Layout_marginTop</item>
     </style>
 
-    <style name="btnBorrarV">
-        <item name="android:textColor">@color/blanco</item>
-        <item name="android:background">@color/morado</item>
-        <item name="android:fontFamily">@font/mandatoryplaything</item>
+    <style name="btnBorrarV" parent="EstiloBoton">
         <item name="android:layout_width">@dimen/btnBorrarV_Layout_width</item>
         <item name="android:layout_height">@dimen/btnborrarV_Layout_height</item>
         <item name="android:layout_marginStart">@dimen/btnBorrarV_Layout_marginStart</item>
     </style>
 
-    <style name="btnBorrarH">
-        <item name="android:textColor">@color/blanco</item>
-        <item name="android:background">@color/morado</item>
-        <item name="android:fontFamily">@font/mandatoryplaything</item>
+    <style name="btnBorrarH"  parent="EstiloBoton">
         <item name="android:layout_width">@dimen/btnBorrarH_Layout_width</item>
         <item name="android:layout_height">@dimen/btnborrarH_Layout_height</item>
         <item name="android:layout_marginStart">@dimen/btnBorrarH_Layout_marginStart</item>
         <item name="android:layout_marginTop">@dimen/btnBorrarH_Layout_marginTop</item>
     </style>
 
-    <style name="txtComprobarV">
+    <style name="txtComprobarV"  parent="EstiloTexto">
         <item name="android:layout_width">@dimen/txtComprobarV_Layout_width</item>
         <item name="android:layout_height">@dimen/txtComprobarV_Layout_heigth</item>
         <item name="android:layout_marginStart">@dimen/txtComprobarV_Layout_marginStart</item>
     </style>
 
-    <style name="txtComprobarH">
+    <style name="txtComprobarH"  parent="EstiloTexto">
         <item name="android:layout_width">@dimen/txtComprobarH_Layout_width</item>
         <item name="android:layout_height">@dimen/txtComprobarH_Layout_heigth</item>
         <item name="android:layout_marginStart">@dimen/txtComprobarH_Layout_marginStart</item>
