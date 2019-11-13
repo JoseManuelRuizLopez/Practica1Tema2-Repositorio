@@ -7,55 +7,41 @@
     tools:context=".MainActivity">
 
     <EditText
+        style="@style/txtNombres"
+
         android:id="@+id/txtNombre"
-        android:layout_width="357dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="32dp"
         android:layout_marginTop="28dp"
-        android:digits="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ "
-        android:ems="10"
         android:hint="@string/txtNombrePLH"
-        android:inputType="textCapSentences"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        style="@style/txtNombres"
+
         android:id="@+id/txtApellidos"
-        android:layout_width="357dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="32dp"
         android:layout_marginTop="88dp"
-        android:digits="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ "
-        android:ems="10"
         android:hint="@string/txtApellidosPLH"
-        android:inputType="textCapSentences"
-        android:text="@string/txtApellidos"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        style="@style/txtEdad"
+
         android:id="@+id/txtEdad"
-        android:layout_width="356dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="32dp"
         android:layout_marginTop="148dp"
-        android:digits="0123456789"
-        android:ems="10"
         android:hint="@string/txtEdadPLH"
-        android:inputType="number"
-        android:text="@string/txtEdad"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
+        style="@style/rbgGenero"
+
         android:id="@+id/rbgGenero"
-        android:layout_width="189dp"
-        android:layout_height="78dp"
-        android:layout_marginStart="32dp"
         android:layout_marginTop="208dp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -75,50 +61,47 @@
     </RadioGroup>
 
     <Switch
+        style="@style/swHijos"
+
         android:id="@+id/swHijos"
-        android:layout_width="205dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
         android:layout_marginTop="368dp"
         android:text="@string/swHijos"
-        android:textSize="20sp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
+        style="@style/spEstadoCivil"
+
         android:id="@+id/spEstadoCivil"
-        android:layout_width="303dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="32dp"
         android:layout_marginTop="304dp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        style="@style/btnComprobar"
+
         android:id="@+id/btnComprobar"
-        android:layout_width="166dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="32dp"
         android:layout_marginTop="436dp"
         android:text="@string/btnComprobar"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        style="@style/btnBorrar"
+
         android:id="@+id/btnBorrar"
-        android:layout_width="133dp"
-        android:layout_height="54dp"
-        android:layout_marginStart="240dp"
         android:layout_marginTop="436dp"
         android:text="@string/btnBorrar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        style="@style/txtComprobar"
+
         android:id="@+id/txtComprobar"
-        android:layout_width="344dp"
-        android:layout_height="101dp"
-        android:layout_marginStart="28dp"
         android:layout_marginTop="524dp"
         android:text="@string/txtComprobar"
         app:layout_constraintStart_toStartOf="parent"
