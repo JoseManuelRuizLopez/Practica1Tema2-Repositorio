@@ -41,9 +41,9 @@
     <dimen name="txtApellidosH_Layout_marginStart">252dp</dimen>
     <dimen name="txtApellidosH_Layout_marginTop">28dp</dimen>
 
-    <dimen name="txtEdadH_Layout_width">356dp</dimen>
-    <dimen name="txtEdadH_Layout_height">45dp</dimen>
-    <dimen name="txtEdadH_Layout_marginStart">389dp</dimen>
+    <dimen name="txtEdadH_Layout_width">184dp</dimen>
+    <dimen name="txtEdadH_Layout_height">47dp</dimen>
+    <dimen name="txtEdadH_Layout_marginStart">475dp</dimen>
     <dimen name="txtEdadH_Layout_marginTop">28dp</dimen>
 
     <dimen name="rbgGeneroH_Layout_width">114dp</dimen>

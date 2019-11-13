@@ -23,8 +23,8 @@
         <item name="android:digits">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ </item>
         <item name="android:ems">10</item>
         <item name="android:inputType">textCapSentences</item>
-        <item name="android:layout_width">@dimen/txtNombreH_Layout_width</item>_
-        <item name="android:layout_height">@dimen/txtNombreH_Layout_height</item>_
+        <item name="android:layout_width">@dimen/txtNombreH_Layout_width</item>
+        <item name="android:layout_height">@dimen/txtNombreH_Layout_height</item>
         <item name="android:layout_marginStart">@dimen/txtNombreH_Layout_marginStart</item>
         <item name="android:layout_marginTop">@dimen/txtNombreH_Layout_marginTop</item>
     </style>
@@ -34,8 +34,8 @@
         <item name="android:digits">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ </item>
         <item name="android:ems">10</item>
         <item name="android:inputType">textCapSentences</item>
-        <item name="android:layout_width">@dimen/txtApellidosH_Layout_width</item>_
-        <item name="android:layout_height">@dimen/txtApellidosH_Layout_height</item>_
+        <item name="android:layout_width">@dimen/txtApellidosH_Layout_width</item>
+        <item name="android:layout_height">@dimen/txtApellidosH_Layout_height</item>
         <item name="android:layout_marginStart">@dimen/txtApellidosH_Layout_marginStart</item>
         <item name="android:layout_marginTop">@dimen/txtApellidosH_Layout_marginTop</item>
     </style>
@@ -45,8 +45,8 @@
         <item name="android:inputType">number</item>
         <item name="android:ems">10</item>
         <item name="android:digits">0123456789</item>
-        <item name="android:layout_width">@dimen/txtEdadV_Layout_width</item>_
-        <item name="android:layout_height">@dimen/txtEdadV_Layout_height</item>_
+        <item name="android:layout_width">@dimen/txtEdadV_Layout_width</item>
+        <item name="android:layout_height">@dimen/txtEdadV_Layout_height</item>
         <item name="android:layout_marginStart">@dimen/margenGeneralV_Layout_marginStart</item>
     </style>
 
@@ -55,8 +55,8 @@
         <item name="android:inputType">number</item>
         <item name="android:ems">10</item>
         <item name="android:digits">0123456789</item>
-        <item name="android:layout_width">@dimen/txtEdadH_Layout_width</item>_
-        <item name="android:layout_height">@dimen/txtEdadH_Layout_height</item>_
+        <item name="android:layout_width">@dimen/txtEdadH_Layout_width</item>
+        <item name="android:layout_height">@dimen/txtEdadH_Layout_height</item>
         <item name="android:layout_marginStart">@dimen/txtEdadH_Layout_marginStart</item>
         <item name="android:layout_marginTop">@dimen/txtEdadH_Layout_marginTop</item>
     </style>
