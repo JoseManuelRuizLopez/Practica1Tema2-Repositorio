@@ -6,4 +6,6 @@
 
     <color name="rojo">#DC143C</color>
     <color name="negro">#000000</color>
+    <color name="morado">#8B00CB</color>
+    <color name="blanco">#FFFFFF</color>
 </resources>

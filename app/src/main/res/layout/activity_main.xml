@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        style="@style/txtNombres"
+        style="@style/txtNombresV"
 
         android:id="@+id/txtNombre"
         android:layout_marginTop="28dp"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        style="@style/txtNombres"
+        style="@style/txtNombresV"
 
         android:id="@+id/txtApellidos"
         android:layout_marginTop="88dp"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        style="@style/txtEdad"
+        style="@style/txtEdadV"
 
         android:id="@+id/txtEdad"
         android:layout_marginTop="148dp"
@@ -37,7 +37,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
-        style="@style/rbgGenero"
+        style="@style/rbgGeneroV"
 
         android:id="@+id/rbgGenero"
         android:layout_marginTop="208dp"
@@ -61,7 +61,7 @@
     </RadioGroup>
 
     <Switch
-        style="@style/swHijos"
+        style="@style/swHijosV"
 
         android:id="@+id/swHijos"
         android:layout_marginTop="368dp"
@@ -71,7 +71,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        style="@style/spEstadoCivil"
+        style="@style/spEstadoCivilV"
 
         android:id="@+id/spEstadoCivil"
         android:layout_marginTop="304dp"
@@ -80,7 +80,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        style="@style/btnComprobar"
+        style="@style/btnComprobarV"
 
         android:id="@+id/btnComprobar"
         android:layout_marginTop="436dp"
@@ -90,20 +90,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        style="@style/btnBorrar"
+        style="@style/btnBorrarV"
 
         android:id="@+id/btnBorrar"
         android:layout_marginTop="436dp"
         android:text="@string/btnBorrar"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        style="@style/txtComprobar"
+        style="@style/txtComprobarV"
 
         android:id="@+id/txtComprobar"
         android:layout_marginTop="524dp"
         android:text="@string/txtComprobar"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

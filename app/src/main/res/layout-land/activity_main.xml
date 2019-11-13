@@ -7,55 +7,32 @@
     tools:context=".MainActivity">
 
     <EditText
+        style="@style/txtNombreH"
         android:id="@+id/txtNombre"
-        android:layout_width="184dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="28dp"
-        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
-        android:ems="10"
         android:hint="@string/txtNombrePLH"
-        android:inputType="textCapSentences"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        style="@style/txtApellidosH"
         android:id="@+id/txtApellidos"
-        android:layout_width="184dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="252dp"
-        android:layout_marginTop="28dp"
-        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
-        android:ems="10"
         android:hint="@string/txtApellidosPLH"
-        android:inputType="textCapSentences"
-        android:text="@string/txtApellidos"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        style="@style/txtEdadH"
         android:id="@+id/txtEdad"
-        android:layout_width="184dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="480dp"
-        android:layout_marginTop="28dp"
-        android:digits="0123456789"
-        android:ems="10"
         android:hint="@string/txtEdadPLH"
-        android:inputType="number"
-        android:text="@string/txtEdad"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
+        style="@style/rbgGeneroH"
         android:id="@+id/rbgGenero"
-        android:layout_width="114dp"
-        android:layout_height="71dp"
-        android:layout_marginStart="260dp"
-        android:layout_marginTop="124dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -75,52 +52,41 @@
     </RadioGroup>
 
     <Switch
+        style="@style/swHijosH"
         android:id="@+id/swHijos"
-        android:layout_width="205dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="124dp"
         android:text="@string/swHijos"
-        android:textSize="20sp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
+        style="@style/spEstadoCivilH"
         android:id="@+id/spEstadoCivil"
-        android:layout_width="269dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="400dp"
-        android:layout_marginTop="124dp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        style="@style/btnComprobarH"
         android:id="@+id/btnComprobar"
-        android:layout_width="165dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="192dp"
         android:text="@string/btnComprobar"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        style="@style/btnBorrarH"
         android:id="@+id/btnBorrar"
-        android:layout_width="165dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="268dp"
         android:text="@string/btnBorrar"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        style="@style/txtComprobarH"
         android:id="@+id/txtComprobar"
-        android:layout_width="344dp"
-        android:layout_height="101dp"
-        android:layout_marginStart="260dp"
-        android:layout_marginTop="220dp"
         android:text="@string/txtComprobar"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

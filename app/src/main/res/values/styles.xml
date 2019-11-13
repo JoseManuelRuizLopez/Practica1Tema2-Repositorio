@@ -3,64 +3,156 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/morado</item>
+        <item name="colorPrimaryDark">@color/negro</item>
+        <item name="colorAccent">@color/morado</item>
     </style>
 
-    <style name="txtNombres">
+    <style name="txtNombresV">
+        <item name="android:fontFamily">@font/nairiambersanserif</item>
         <item name="android:digits">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ </item>
         <item name="android:ems">10</item>
         <item name="android:inputType">textCapSentences</item>
-        <item name="android:layout_width">@dimen/txtNombres_Layout_width</item>_
-        <item name="android:layout_height">@dimen/txtNombres_Layout_height</item>_
-        <item name="android:layout_marginStart">@dimen/margenGeneral_Layout_marginStart</item>
+        <item name="android:layout_width">@dimen/txtNombresV_Layout_width</item>_
+        <item name="android:layout_height">@dimen/txtNombresV_Layout_height</item>_
+        <item name="android:layout_marginStart">@dimen/margenGeneralV_Layout_marginStart</item>
     </style>
 
-    <style name="txtEdad">
+    <style name="txtNombreH">
+        <item name="android:fontFamily">@font/nairiambersanserif</item>
+        <item name="android:digits">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ </item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:layout_width">@dimen/txtNombreH_Layout_width</item>_
+        <item name="android:layout_height">@dimen/txtNombreH_Layout_height</item>_
+        <item name="android:layout_marginStart">@dimen/txtNombreH_Layout_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/txtNombreH_Layout_marginTop</item>
+    </style>
+
+    <style name="txtApellidosH">
+        <item name="android:fontFamily">@font/nairiambersanserif</item>
+        <item name="android:digits">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ </item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:layout_width">@dimen/txtApellidosH_Layout_width</item>_
+        <item name="android:layout_height">@dimen/txtApellidosH_Layout_height</item>_
+        <item name="android:layout_marginStart">@dimen/txtApellidosH_Layout_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/txtApellidosH_Layout_marginTop</item>
+    </style>
+
+    <style name="txtEdadV">
+        <item name="android:fontFamily">@font/nairiambersanserif</item>
         <item name="android:inputType">number</item>
         <item name="android:ems">10</item>
         <item name="android:digits">0123456789</item>
-        <item name="android:layout_width">@dimen/txtEdad_Layout_width</item>_
-        <item name="android:layout_height">@dimen/txtEdad_Layout_height</item>_
-        <item name="android:layout_marginStart">@dimen/margenGeneral_Layout_marginStart</item>
+        <item name="android:layout_width">@dimen/txtEdadV_Layout_width</item>_
+        <item name="android:layout_height">@dimen/txtEdadV_Layout_height</item>_
+        <item name="android:layout_marginStart">@dimen/margenGeneralV_Layout_marginStart</item>
     </style>
 
-    <style name="rbgGenero">
-        <item name="android:layout_width">@dimen/rbgGenero_Layout_width</item>
-        <item name="android:layout_height">@dimen/rbgGenero_Layout_height</item>
-        <item name="android:layout_marginStart">@dimen/margenGeneral_Layout_marginStart</item>
+    <style name="txtEdadH">
+        <item name="android:fontFamily">@font/nairiambersanserif</item>
+        <item name="android:inputType">number</item>
+        <item name="android:ems">10</item>
+        <item name="android:digits">0123456789</item>
+        <item name="android:layout_width">@dimen/txtEdadH_Layout_width</item>_
+        <item name="android:layout_height">@dimen/txtEdadH_Layout_height</item>_
+        <item name="android:layout_marginStart">@dimen/txtEdadH_Layout_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/txtEdadH_Layout_marginTop</item>
     </style>
 
-    <style name="swHijos">
+    <style name="rbgGeneroV">
+        <item name="android:layout_width">@dimen/rbgGeneroV_Layout_width</item>
+        <item name="android:layout_height">@dimen/rbgGeneroV_Layout_height</item>
+        <item name="android:layout_marginStart">@dimen/margenGeneralV_Layout_marginStart</item>
+    </style>
+
+    <style name="rbgGeneroH">
+        <item name="android:layout_width">@dimen/rbgGeneroH_Layout_width</item>
+        <item name="android:layout_height">@dimen/rbgGeneroH_Layout_height</item>
+        <item name="android:layout_marginStart">@dimen/rbgGeneroH_Layout_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/rbgGeneroH_Layout_marginTop</item>
+    </style>
+
+    <style name="swHijosV">
+        <item name="android:fontFamily">@font/nairiambersanserif</item>
         <item name="android:textSize">20sp</item>
-        <item name="android:layout_marginStart">@dimen/margenGeneral_Layout_marginStart</item>
-        <item name="android:layout_width">@dimen/swHijos_Layout_width</item>
-        <item name="android:layout_height">@dimen/swHijos_Layout_height</item>
+        <item name="android:layout_marginStart">@dimen/margenGeneralV_Layout_marginStart</item>
+        <item name="android:layout_width">@dimen/swHijosV_Layout_width</item>
+        <item name="android:layout_height">@dimen/swHijosV_Layout_height</item>
     </style>
 
-    <style name="spEstadoCivil">
-        <item name="android:layout_width">@dimen/spEstadoCivil_Layout_width</item>
-        <item name="android:layout_height">@dimen/spEstadoCivil_Layout_height</item>
-        <item name="android:layout_marginStart">@dimen/margenGeneral_Layout_marginStart</item>
+    <style name="swHijosH">
+        <item name="android:fontFamily">@font/nairiambersanserif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginStart">@dimen/swHijosH_Layout_marginStart</item>
+        <item name="android:layout_width">@dimen/swHijosH_Layout_width</item>
+        <item name="android:layout_height">@dimen/swHijosH_Layout_height</item>
+        <item name="android:layout_marginTop">@dimen/swHijosH_Layout_marginTop</item>
     </style>
 
-    <style name="btnComprobar">
-        <item name="android:layout_marginStart">@dimen/margenGeneral_Layout_marginStart</item>
-        <item name="android:layout_width">@dimen/btnComprobar_Layout_width</item>
-        <item name="android:layout_height">@dimen/btnComprobar_Layout_height</item>
+    <style name="spEstadoCivilV">
+        <item name="android:layout_width">@dimen/spEstadoCivilV_Layout_width</item>
+        <item name="android:layout_height">@dimen/spEstadoCivilV_Layout_height</item>
+        <item name="android:layout_marginStart">@dimen/margenGeneralV_Layout_marginStart</item>
     </style>
 
-    <style name="btnBorrar">
-        <item name="android:layout_width">@dimen/btnBorrar_Layout_width</item>
-        <item name="android:layout_height">@dimen/btnborrar_Layout_height</item>
-        <item name="android:layout_marginStart">@dimen/btnBorrar_Layout_marginStart</item>
+    <style name="spEstadoCivilH">
+        <item name="android:layout_width">@dimen/spEstadoCivilH_Layout_width</item>
+        <item name="android:layout_height">@dimen/spEstadoCivilH_Layout_height</item>
+        <item name="android:layout_marginStart">@dimen/spEstadoCivilH_Layout_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/swHijosH_Layout_marginTop</item>
     </style>
 
-    <style name="txtComprobar">
-        <item name="android:layout_width">@dimen/txtComprobar_Layout_width</item>
-        <item name="android:layout_height">@dimen/txtComprobar_Layout_heigth</item>
-        <item name="android:layout_marginStart">@dimen/txtComprobar_Layout_marginStart</item>
+    <style name="btnComprobarV">
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:fontFamily">@font/mandatoryplaything</item>
+        <item name="android:background">@color/morado</item>
+        <item name="android:layout_marginStart">@dimen/margenGeneralV_Layout_marginStart</item>
+        <item name="android:layout_width">@dimen/btnComprobarV_Layout_width</item>
+        <item name="android:layout_height">@dimen/btnComprobarV_Layout_height</item>
+    </style>
+
+    <style name="btnComprobarH">
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:fontFamily">@font/mandatoryplaything</item>
+        <item name="android:background">@color/morado</item>
+        <item name="android:layout_marginStart">@dimen/btnComprobarH_Layout_marginStart</item>
+        <item name="android:layout_width">@dimen/btnComprobarH_Layout_width</item>
+        <item name="android:layout_height">@dimen/btnComprobarH_Layout_height</item>
+        <item name="android:layout_marginTop">@dimen/btnComprobarH_Layout_marginTop</item>
+    </style>
+
+    <style name="btnBorrarV">
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:background">@color/morado</item>
+        <item name="android:fontFamily">@font/mandatoryplaything</item>
+        <item name="android:layout_width">@dimen/btnBorrarV_Layout_width</item>
+        <item name="android:layout_height">@dimen/btnborrarV_Layout_height</item>
+        <item name="android:layout_marginStart">@dimen/btnBorrarV_Layout_marginStart</item>
+    </style>
+
+    <style name="btnBorrarH">
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:background">@color/morado</item>
+        <item name="android:fontFamily">@font/mandatoryplaything</item>
+        <item name="android:layout_width">@dimen/btnBorrarH_Layout_width</item>
+        <item name="android:layout_height">@dimen/btnborrarH_Layout_height</item>
+        <item name="android:layout_marginStart">@dimen/btnBorrarH_Layout_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/btnBorrarH_Layout_marginTop</item>
+    </style>
+
+    <style name="txtComprobarV">
+        <item name="android:layout_width">@dimen/txtComprobarV_Layout_width</item>
+        <item name="android:layout_height">@dimen/txtComprobarV_Layout_heigth</item>
+        <item name="android:layout_marginStart">@dimen/txtComprobarV_Layout_marginStart</item>
+    </style>
+
+    <style name="txtComprobarH">
+        <item name="android:layout_width">@dimen/txtComprobarH_Layout_width</item>
+        <item name="android:layout_height">@dimen/txtComprobarH_Layout_heigth</item>
+        <item name="android:layout_marginStart">@dimen/txtComprobarH_Layout_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/txtComprobarH_Layout_marginTop</item>
     </style>
 
 </resources>

@@ -1,31 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="txtNombres_Layout_width">357dp</dimen>
-    <dimen name="txtNombres_Layout_height">48dp</dimen>
+    //Vertical
+    <dimen name="txtNombresV_Layout_width">357dp</dimen>
+    <dimen name="txtNombresV_Layout_height">48dp</dimen>
 
-    <dimen name="margenGeneral_Layout_marginStart">32dp</dimen>
+    <dimen name="margenGeneralV_Layout_marginStart">32dp</dimen>
 
-    <dimen name="txtEdad_Layout_width">356dp</dimen>
-    <dimen name="txtEdad_Layout_height">45dp</dimen>
+    <dimen name="txtEdadV_Layout_width">356dp</dimen>
+    <dimen name="txtEdadV_Layout_height">45dp</dimen>
 
-    <dimen name="rbgGenero_Layout_width">189dp</dimen>
-    <dimen name="rbgGenero_Layout_height">78dp</dimen>
+    <dimen name="rbgGeneroV_Layout_width">189dp</dimen>
+    <dimen name="rbgGeneroV_Layout_height">78dp</dimen>
 
-    <dimen name="swHijos_Layout_width">205dp</dimen>
-    <dimen name="swHijos_Layout_height">50dp</dimen>
+    <dimen name="swHijosV_Layout_width">205dp</dimen>
+    <dimen name="swHijosV_Layout_height">50dp</dimen>
 
-    <dimen name="spEstadoCivil_Layout_width">303dp</dimen>
-    <dimen name="spEstadoCivil_Layout_height">43dp</dimen>
+    <dimen name="spEstadoCivilV_Layout_width">303dp</dimen>
+    <dimen name="spEstadoCivilV_Layout_height">43dp</dimen>
 
-    <dimen name="btnComprobar_Layout_width">166dp</dimen>
-    <dimen name="btnComprobar_Layout_height">54dp</dimen>
+    <dimen name="btnComprobarV_Layout_width">166dp</dimen>
+    <dimen name="btnComprobarV_Layout_height">54dp</dimen>
 
-    <dimen name="btnBorrar_Layout_width">133dp</dimen>
-    <dimen name="btnborrar_Layout_height">54dp</dimen>
-    <dimen name="btnBorrar_Layout_marginStart">240dp</dimen>
+    <dimen name="btnBorrarV_Layout_width">133dp</dimen>
+    <dimen name="btnborrarV_Layout_height">54dp</dimen>
+    <dimen name="btnBorrarV_Layout_marginStart">240dp</dimen>
 
-    <dimen name="txtComprobar_Layout_width">344dp</dimen>
-    <dimen name="txtComprobar_Layout_heigth">101dp</dimen>
-    <dimen name="txtComprobar_Layout_marginStart">28dp</dimen>
+    <dimen name="txtComprobarV_Layout_width">344dp</dimen>
+    <dimen name="txtComprobarV_Layout_heigth">101dp</dimen>
+    <dimen name="txtComprobarV_Layout_marginStart">28dp</dimen>
 
+
+    //Horizontal
+    <dimen name="txtNombreH_Layout_width">184dp</dimen>
+    <dimen name="txtNombreH_Layout_height">47dp</dimen>
+    <dimen name="txtNombreH_Layout_marginStart">32dp</dimen>
+    <dimen name="txtNombreH_Layout_marginTop">28dp</dimen>
+
+    <dimen name="txtApellidosH_Layout_width">184dp</dimen>
+    <dimen name="txtApellidosH_Layout_height">47dp</dimen>
+    <dimen name="txtApellidosH_Layout_marginStart">252dp</dimen>
+    <dimen name="txtApellidosH_Layout_marginTop">28dp</dimen>
+
+    <dimen name="txtEdadH_Layout_width">356dp</dimen>
+    <dimen name="txtEdadH_Layout_height">45dp</dimen>
+    <dimen name="txtEdadH_Layout_marginStart">389dp</dimen>
+    <dimen name="txtEdadH_Layout_marginTop">28dp</dimen>
+
+    <dimen name="rbgGeneroH_Layout_width">114dp</dimen>
+    <dimen name="rbgGeneroH_Layout_height">71dp</dimen>
+    <dimen name="rbgGeneroH_Layout_marginStart">260dp</dimen>
+    <dimen name="rbgGeneroH_Layout_marginTop">124dp</dimen>
+
+    <dimen name="swHijosH_Layout_width">205dp</dimen>
+    <dimen name="swHijosH_Layout_height">50dp</dimen>
+    <dimen name="swHijosH_Layout_marginStart">32dp</dimen>
+    <dimen name="swHijosH_Layout_marginTop">124dp</dimen>
+
+    <dimen name="spEstadoCivilH_Layout_width">269dp</dimen>
+    <dimen name="spEstadoCivilH_Layout_height">46dp</dimen>
+    <dimen name="spEstadoCivilH_Layout_marginStart">400dp</dimen>
+    <dimen name="spEstadoCivilH_Layout_marginTop">124dp</dimen>
+
+    <dimen name="btnComprobarH_Layout_width">165dp</dimen>
+    <dimen name="btnComprobarH_Layout_height">49dp</dimen>
+    <dimen name="btnComprobarH_Layout_marginStart">48dp</dimen>
+    <dimen name="btnComprobarH_Layout_marginTop">192dp</dimen>
+
+    <dimen name="btnBorrarH_Layout_width">165dp</dimen>
+    <dimen name="btnborrarH_Layout_height">48dp</dimen>
+    <dimen name="btnBorrarH_Layout_marginStart">48dp</dimen>
+    <dimen name="btnBorrarH_Layout_marginTop">268dp</dimen>
+
+    <dimen name="txtComprobarH_Layout_width">344dp</dimen>
+    <dimen name="txtComprobarH_Layout_heigth">101dp</dimen>
+    <dimen name="txtComprobarH_Layout_marginStart">260dp</dimen>
+    <dimen name="txtComprobarH_Layout_marginTop">220dp</dimen>
 </resources>
