@@ -19,7 +19,6 @@
     </style>
 
     <style name="txtNombresV" parent="EstiloTexto">
-        <item name="android:digits">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ </item>
         <item name="android:ems">10</item>
         <item name="android:inputType">textCapSentences</item>
         <item name="android:layout_width">@dimen/txtNombresV_Layout_width</item>_
@@ -28,7 +27,6 @@
     </style>
 
     <style name="txtNombreH" parent="EstiloTexto">
-        <item name="android:digits">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ </item>
         <item name="android:ems">10</item>
         <item name="android:inputType">textCapSentences</item>
         <item name="android:layout_width">@dimen/txtNombreH_Layout_width</item>
@@ -38,7 +36,6 @@
     </style>
 
     <style name="txtApellidosH" parent="EstiloTexto">
-        <item name="android:digits">abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ </item>
         <item name="android:ems">10</item>
         <item name="android:inputType">textCapSentences</item>
         <item name="android:layout_width">@dimen/txtApellidosH_Layout_width</item>

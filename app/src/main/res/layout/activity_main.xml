@@ -12,6 +12,7 @@
         android:id="@+id/txtNombre"
         android:layout_marginTop="28dp"
         android:hint="@string/txtNombrePLH"
+        android:digits="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ "
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,6 +23,7 @@
         android:id="@+id/txtApellidos"
         android:layout_marginTop="88dp"
         android:hint="@string/txtApellidosPLH"
+        android:digits="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ "
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
